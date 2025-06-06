@@ -1,45 +1,38 @@
-# Projeto: My Dog App com Next.js + NextUI
+# Projeto: Dog Gallery com Next.js + NextUI
 
 ## Descrição
 
-Uma aplicação web para explorar diferentes raças de cães, desenvolvida com Next.js. A aplicação permite navegar por uma lista completa de raças caninas e visualizar galerias de imagens para cada raça específica. Os dados são obtidos em tempo real através da Dog CEO API, proporcionando uma experiência rica e informativa para os amantes de cães.
+Aplicação web para explorar raças de cães, visualizar imagens e simular autenticação. Desenvolvida com Next.js (App Router), Tailwind CSS e NextUI, consumindo a Dog API.
 
 ## Tecnologias
 
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- NextUI (HeroUI)
-- Dog CEO API
+-   Next.js (App Router)
+-   TypeScript
+-   Tailwind CSS
+-   NextUI
+-   Dog API
+-   Vercel
 
-## Como rodar
+## Como Rodar
 
-```bash
-npm install
-```
-
-```bash
-npm run dev
-```
-
-Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-## Funcionalidades
-
-- 📋 Lista completa de raças de cães
-- 🖼️ Galeria de imagens para cada raça
-- 🎨 Interface moderna com NextUI
-- 🌙 Suporte a tema claro e escuro
-- 📱 Design responsivo
-- ⚡ Carregamento otimizado de imagens
-
-## Estrutura do Projeto
-
-- `/app` - Páginas da aplicação (App Router)
-- `/components` - Componentes reutilizáveis
-- `/app/racas/[raca]` - Páginas dinâmicas para cada raça
+1.  **Clone o projeto:**
+    ```bash
+    git clone [https://github.com/Mayckonjose/my-dog-app.git](https://github.com/Mayckonjose/my-dog-app.git)
+    cd my-dog-app
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Rode o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+    Acesse: [http://localhost:3000](http://localhost:3000)
 
 ## Links
 
-- [Deploy na Vercel](https://...)
-- [Repositório GitHub](https://...)
+-   **Deploy na Vercel:** [https://my-dog-app-topaz.vercel.app/](https://my-dog-app-topaz.vercel.app/)
+-   **Repositório GitHub:** [https://github.com/Mayckonjose/my-dog-app](https://github.com/Mayckonjose/my-dog-app)
+
+---

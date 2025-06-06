@@ -12,7 +12,7 @@ export default function BreedImageGallery({ breedImages, formattedBreedName }: B
   return (
     <div className="container mx-auto p-8 max-w-7xl mt-8">
       <Link href="/" passHref>
-        <Button auto color="secondary" className="mb-6">
+        <Button  color="secondary" className="mb-6">
           Voltar para as Raças
         </Button>
       </Link>

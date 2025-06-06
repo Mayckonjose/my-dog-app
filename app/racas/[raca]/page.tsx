@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { Button } from '@nextui-org/react';
 import BreedImageGallery from '@/components/BreedImageGallery'; 
 
 interface DogImagesByBreed {
